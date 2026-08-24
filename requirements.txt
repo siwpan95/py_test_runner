@@ -1,0 +1,5 @@
+# py_test_runner dependencies (auto-generated 2026-08-20)
+coverage
+numpy
+pygame-ce
+pytest

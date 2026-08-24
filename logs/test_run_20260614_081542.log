@@ -1,0 +1,682 @@
+=== 测试日志 === 开始时间: 2026-06-14 08:15:42.844336
+[08:15:42] [INFO] 发现 112 个测试对象
+[08:15:42] [INFO] 已注册 342 个探针点（112 个项目 x 3-4 探针/项目）
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔬 OK 测试对象库扫描 — P1 关键探针
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[08:15:42] [INFO] 目标目录: D:\allin\not\OK
+[08:15:42] [INFO] 探针总数: 342
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📍 探针扫描 — 330 个检测点
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[08:15:42] [INFO] [1/330] [存在性] 探针: OK/2048 — 目录存在
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:42] [INFO] [2/330] [语法] 探针: OK/2048 — 入口文件
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 2048.py (4375 bytes) (0.000s)  
+[08:15:42] [INFO] [3/330] [语法] 探针: OK/2048 — 语法
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:42] [INFO] [4/330] [存在性] 探针: OK/2048_auto — 目录存在
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:42] [INFO] [5/330] [语法] 探针: OK/2048_auto — 入口文件
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 2048_auto.py (10142 bytes) (0.000s)  
+[08:15:42] [INFO] [6/330] [语法] 探针: OK/2048_auto — 语法
+[08:15:42] [ERROR] [PROBE-FAIL] 📍 ❌ 语法错误 L4: invalid syntax (0.002s)  
+[08:15:42] [INFO] [7/330] [存在性] 探针: OK/act — 目录存在
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:42] [INFO] [8/330] [语法] 探针: OK/act — 入口文件
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 入口: act.py (49962 bytes) (0.000s)  
+[08:15:42] [INFO] [9/330] [语法] 探针: OK/act — 语法
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.010s)  
+[08:15:42] [INFO] [10/330] [存在性] 探针: OK/adventure — 目录存在
+[08:15:42] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:42] [INFO] [11/330] [语法] 探针: OK/adventure — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: adventure.py (21179 bytes) (0.000s)  
+[08:15:43] [INFO] [12/330] [语法] 探针: OK/adventure — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:43] [INFO] [13/330] [存在性] 探针: OK/afo — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [14/330] [语法] 探针: OK/afo — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: afo.py (6127 bytes) (0.000s)  
+[08:15:43] [INFO] [15/330] [语法] 探针: OK/afo — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [16/330] [存在性] 探针: OK/aotuplay — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [17/330] [语法] 探针: OK/aotuplay — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: aotuplay.py (34027 bytes) (0.000s)  
+[08:15:43] [INFO] [18/330] [语法] 探针: OK/aotuplay — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.007s)  
+[08:15:43] [INFO] [19/330] [存在性] 探针: OK/bosh_generator — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [20/330] [语法] 探针: OK/bosh_generator — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: bosh_generator.py (9278 bytes) (0.000s)  
+[08:15:43] [INFO] [21/330] [语法] 探针: OK/bosh_generator — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [22/330] [存在性] 探针: OK/brownian_wave — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [23/330] [语法] 探针: OK/brownian_wave — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: brownian_wave.py (28556 bytes) (0.000s)  
+[08:15:43] [INFO] [24/330] [语法] 探针: OK/brownian_wave — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:43] [INFO] [25/330] [存在性] 探针: OK/captcha_demo — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=12 (0.000s)  
+[08:15:43] [INFO] [26/330] [语法] 探针: OK/captcha_demo — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (1219 bytes) (0.000s)  
+[08:15:43] [INFO] [27/330] [语法] 探针: OK/captcha_demo — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:43] [INFO] [28/330] [存在性] 探针: OK/ch — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [29/330] [语法] 探针: OK/ch — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: lp.py (49114 bytes) (0.000s)  
+[08:15:43] [INFO] [30/330] [语法] 探针: OK/ch — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.011s)  
+[08:15:43] [INFO] [31/330] [存在性] 探针: OK/chat — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [32/330] [语法] 探针: OK/chat — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: chat.py (5518 bytes) (0.000s)  
+[08:15:43] [INFO] [33/330] [语法] 探针: OK/chat — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [34/330] [存在性] 探针: OK/chat (2) — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [35/330] [语法] 探针: OK/chat (2) — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: chat (2).py (7833 bytes) (0.000s)  
+[08:15:43] [INFO] [36/330] [语法] 探针: OK/chat (2) — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [37/330] [存在性] 探针: OK/cheatcard — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=40 (0.000s)  
+[08:15:43] [INFO] [38/330] [语法] 探针: OK/cheatcard — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (25654 bytes) (0.000s)  
+[08:15:43] [INFO] [39/330] [语法] 探针: OK/cheatcard — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [40/330] [存在性] 探针: OK/create — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [41/330] [语法] 探针: OK/create — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: create.py (2488 bytes) (0.000s)  
+[08:15:43] [INFO] [42/330] [语法] 探针: OK/create — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [43/330] [存在性] 探针: OK/D20 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=3 (0.000s)  
+[08:15:43] [INFO] [44/330] [语法] 探针: OK/D20 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: monk.py (23161 bytes) (0.000s)  
+[08:15:43] [INFO] [45/330] [语法] 探针: OK/D20 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [46/330] [存在性] 探针: OK/ddd1 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [47/330] [语法] 探针: OK/ddd1 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: ddd.py (84963 bytes) (0.000s)  
+[08:15:43] [INFO] [48/330] [语法] 探针: OK/ddd1 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.016s)  
+[08:15:43] [INFO] [49/330] [存在性] 探针: OK/ddd2 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [50/330] [语法] 探针: OK/ddd2 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: ddd (2).py (36443 bytes) (0.000s)  
+[08:15:43] [INFO] [51/330] [语法] 探针: OK/ddd2 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.008s)  
+[08:15:43] [INFO] [52/330] [存在性] 探针: OK/devine_chese — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=3 (0.000s)  
+[08:15:43] [INFO] [53/330] [语法] 探针: OK/devine_chese — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: coin_mechanic.py (7217 bytes) (0.000s)  
+[08:15:43] [INFO] [54/330] [语法] 探针: OK/devine_chese — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [55/330] [存在性] 探针: OK/die — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [56/330] [语法] 探针: OK/die — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: die.py (9272 bytes) (0.000s)  
+[08:15:43] [INFO] [57/330] [语法] 探针: OK/die — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [58/330] [存在性] 探针: OK/dist — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=0 (0.000s)  
+[08:15:43] [INFO] [59/330] [语法] 探针: OK/dist — 入口文件
+[08:15:43] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:43] [INFO] [60/330] [存在性] 探针: OK/diuyingbi — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [61/330] [语法] 探针: OK/diuyingbi — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 丢硬币.py (8000 bytes) (0.000s)  
+[08:15:43] [INFO] [62/330] [语法] 探针: OK/diuyingbi — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [63/330] [存在性] 探针: OK/elsfk — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [64/330] [语法] 探针: OK/elsfk — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: elsfk.py (12723 bytes) (0.000s)  
+[08:15:43] [INFO] [65/330] [语法] 探针: OK/elsfk — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [66/330] [存在性] 探针: OK/flash — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [67/330] [语法] 探针: OK/flash — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: flash.py (26543 bytes) (0.000s)  
+[08:15:43] [INFO] [68/330] [语法] 探针: OK/flash — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:43] [INFO] [69/330] [存在性] 探针: OK/game — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [70/330] [语法] 探针: OK/game — 入口文件
+[08:15:43] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:43] [INFO] [71/330] [存在性] 探针: OK/gan — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [72/330] [语法] 探针: OK/gan — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: gan.py (11005 bytes) (0.000s)  
+[08:15:43] [INFO] [73/330] [语法] 探针: OK/gan — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [74/330] [存在性] 探针: OK/gandie — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [75/330] [语法] 探针: OK/gandie — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: gandie.py (10097 bytes) (0.000s)  
+[08:15:43] [INFO] [76/330] [语法] 探针: OK/gandie — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [77/330] [存在性] 探针: OK/haha — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [78/330] [语法] 探针: OK/haha — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: haha.py (3558 bytes) (0.000s)  
+[08:15:43] [INFO] [79/330] [语法] 探针: OK/haha — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [80/330] [存在性] 探针: OK/helloworld — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [81/330] [语法] 探针: OK/helloworld — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: deepseek_python_20260610_c7f7c5.py (22 bytes) (0.000s)  
+[08:15:43] [INFO] [82/330] [语法] 探针: OK/helloworld — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:43] [INFO] [83/330] [存在性] 探针: OK/hor — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [84/330] [语法] 探针: OK/hor — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: hor.py (26020 bytes) (0.000s)  
+[08:15:43] [INFO] [85/330] [语法] 探针: OK/hor — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:43] [INFO] [86/330] [存在性] 探针: OK/ice — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=4 (0.000s)  
+[08:15:43] [INFO] [87/330] [语法] 探针: OK/ice — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (2361 bytes) (0.000s)  
+[08:15:43] [INFO] [88/330] [语法] 探针: OK/ice — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:43] [INFO] [89/330] [存在性] 探针: OK/irregular_tictactoe — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [90/330] [语法] 探针: OK/irregular_tictactoe — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: irregular_tictactoe.py (35535 bytes) (0.000s)  
+[08:15:43] [INFO] [91/330] [语法] 探针: OK/irregular_tictactoe — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.007s)  
+[08:15:43] [INFO] [92/330] [存在性] 探针: OK/irregular_tictactoe (2) — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [93/330] [语法] 探针: OK/irregular_tictactoe (2) — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: irregular_tictactoe (2).py (28026 bytes) (0.000s)  
+[08:15:43] [INFO] [94/330] [语法] 探针: OK/irregular_tictactoe (2) — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:43] [INFO] [95/330] [存在性] 探针: OK/kid_a_walker — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [96/330] [语法] 探针: OK/kid_a_walker — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: kid_a_walker.py (115289 bytes) (0.000s)  
+[08:15:43] [INFO] [97/330] [语法] 探针: OK/kid_a_walker — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.022s)  
+[08:15:43] [INFO] [98/330] [存在性] 探针: OK/last — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [99/330] [语法] 探针: OK/last — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: last.py (1917 bytes) (0.000s)  
+[08:15:43] [INFO] [100/330] [语法] 探针: OK/last — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [101/330] [存在性] 探针: OK/legend_demo — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=大型, py文件=38 (0.000s)  
+[08:15:43] [INFO] [102/330] [语法] 探针: OK/legend_demo — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (4333 bytes) (0.000s)  
+[08:15:43] [INFO] [103/330] [语法] 探针: OK/legend_demo — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [104/330] [存在性] 探针: OK/loly — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=2 (0.000s)  
+[08:15:43] [INFO] [105/330] [语法] 探针: OK/loly — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: lonely_desert_highway.py (26901 bytes) (0.000s)  
+[08:15:43] [INFO] [106/330] [语法] 探针: OK/loly — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:43] [INFO] [107/330] [存在性] 探针: OK/lonely — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [108/330] [语法] 探针: OK/lonely — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: road.py (27956 bytes) (0.000s)  
+[08:15:43] [INFO] [109/330] [语法] 探针: OK/lonely — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:43] [INFO] [110/330] [存在性] 探针: OK/lp_en — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [111/330] [语法] 探针: OK/lp_en — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: lp_en.py (64524 bytes) (0.000s)  
+[08:15:43] [INFO] [112/330] [语法] 探针: OK/lp_en — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.013s)  
+[08:15:43] [INFO] [113/330] [存在性] 探针: OK/maga — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=23 (0.000s)  
+[08:15:43] [INFO] [114/330] [语法] 探针: OK/maga — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (794 bytes) (0.000s)  
+[08:15:43] [INFO] [115/330] [语法] 探针: OK/maga — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:43] [INFO] [116/330] [存在性] 探针: OK/media — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [117/330] [语法] 探针: OK/media — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: media.py (89770 bytes) (0.000s)  
+[08:15:43] [INFO] [118/330] [语法] 探针: OK/media — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.016s)  
+[08:15:43] [INFO] [119/330] [存在性] 探针: OK/moto — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [120/330] [语法] 探针: OK/moto — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moto.py (5897 bytes) (0.000s)  
+[08:15:43] [INFO] [121/330] [语法] 探针: OK/moto — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [122/330] [存在性] 探针: OK/moto1 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [123/330] [语法] 探针: OK/moto1 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moto1.py (11301 bytes) (0.000s)  
+[08:15:43] [INFO] [124/330] [语法] 探针: OK/moto1 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [125/330] [存在性] 探针: OK/moto2 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [126/330] [语法] 探针: OK/moto2 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moto2.py (39477 bytes) (0.000s)  
+[08:15:43] [INFO] [127/330] [语法] 探针: OK/moto2 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.007s)  
+[08:15:43] [INFO] [128/330] [存在性] 探针: OK/moto3 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [129/330] [语法] 探针: OK/moto3 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moto3.py (53726 bytes) (0.000s)  
+[08:15:43] [INFO] [130/330] [语法] 探针: OK/moto3 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.010s)  
+[08:15:43] [INFO] [131/330] [存在性] 探针: OK/moto4 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [132/330] [语法] 探针: OK/moto4 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moto4.py (8088 bytes) (0.000s)  
+[08:15:43] [INFO] [133/330] [语法] 探针: OK/moto4 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [134/330] [存在性] 探针: OK/moyu — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [135/330] [语法] 探针: OK/moyu — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moyu.py (11771 bytes) (0.000s)  
+[08:15:43] [INFO] [136/330] [语法] 探针: OK/moyu — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [137/330] [存在性] 探针: OK/moyuxiaqi — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [138/330] [语法] 探针: OK/moyuxiaqi — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: moyuxiaqi.py (20177 bytes) (0.000s)  
+[08:15:43] [INFO] [139/330] [语法] 探针: OK/moyuxiaqi — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:43] [INFO] [140/330] [存在性] 探针: OK/mp — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=9 (0.000s)  
+[08:15:43] [INFO] [141/330] [语法] 探针: OK/mp — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: autoav.py (29027 bytes) (0.000s)  
+[08:15:43] [INFO] [142/330] [语法] 探针: OK/mp — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:43] [INFO] [143/330] [存在性] 探针: OK/oddtown — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [144/330] [语法] 探针: OK/oddtown — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: oddtown.py (8667 bytes) (0.000s)  
+[08:15:43] [INFO] [145/330] [语法] 探针: OK/oddtown — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [146/330] [存在性] 探针: OK/ollama_generator — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [147/330] [语法] 探针: OK/ollama_generator — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: ollama_generator.py (8885 bytes) (0.000s)  
+[08:15:43] [INFO] [148/330] [语法] 探针: OK/ollama_generator — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [149/330] [存在性] 探针: OK/optimization_algorithm — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [150/330] [语法] 探针: OK/optimization_algorithm — 入口文件
+[08:15:43] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:43] [INFO] [151/330] [存在性] 探针: OK/paotuan — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=0 (0.000s)  
+[08:15:43] [INFO] [152/330] [语法] 探针: OK/paotuan — 入口文件
+[08:15:43] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:43] [INFO] [153/330] [存在性] 探针: OK/planb — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [154/330] [语法] 探针: OK/planb — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: planb.py (81786 bytes) (0.000s)  
+[08:15:43] [INFO] [155/330] [语法] 探针: OK/planb — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.014s)  
+[08:15:43] [INFO] [156/330] [存在性] 探针: OK/planc — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=16 (0.000s)  
+[08:15:43] [INFO] [157/330] [语法] 探针: OK/planc — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (2932 bytes) (0.000s)  
+[08:15:43] [INFO] [158/330] [语法] 探针: OK/planc — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:43] [INFO] [159/330] [存在性] 探针: OK/pland — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=23 (0.000s)  
+[08:15:43] [INFO] [160/330] [语法] 探针: OK/pland — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (3985 bytes) (0.000s)  
+[08:15:43] [INFO] [161/330] [语法] 探针: OK/pland — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:43] [INFO] [162/330] [存在性] 探针: OK/play — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=23 (0.000s)  
+[08:15:43] [INFO] [163/330] [语法] 探针: OK/play — 入口文件
+[08:15:43] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:43] [INFO] [164/330] [存在性] 探针: OK/player — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [165/330] [语法] 探针: OK/player — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: player.py (11218 bytes) (0.000s)  
+[08:15:43] [INFO] [166/330] [语法] 探针: OK/player — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:43] [INFO] [167/330] [存在性] 探针: OK/plus — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [168/330] [语法] 探针: OK/plus — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: plus.py (30495 bytes) (0.000s)  
+[08:15:43] [INFO] [169/330] [语法] 探针: OK/plus — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:43] [INFO] [170/330] [存在性] 探针: OK/porn — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [171/330] [语法] 探针: OK/porn — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: porn.py (8774 bytes) (0.000s)  
+[08:15:43] [INFO] [172/330] [语法] 探针: OK/porn — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [173/330] [存在性] 探针: OK/ppe — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [174/330] [语法] 探针: OK/ppe — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: ppe.py (31793 bytes) (0.000s)  
+[08:15:43] [INFO] [175/330] [语法] 探针: OK/ppe — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:43] [INFO] [176/330] [存在性] 探针: OK/ppt — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [177/330] [语法] 探针: OK/ppt — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: ppt.py (7150 bytes) (0.000s)  
+[08:15:43] [INFO] [178/330] [语法] 探针: OK/ppt — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [179/330] [存在性] 探针: OK/pq6-4-4 — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=3 (0.000s)  
+[08:15:43] [INFO] [180/330] [语法] 探针: OK/pq6-4-4 — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: pq_cn_patch.py (9718 bytes) (0.000s)  
+[08:15:43] [INFO] [181/330] [语法] 探针: OK/pq6-4-4 — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:43] [INFO] [182/330] [存在性] 探针: OK/procedural — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [183/330] [语法] 探针: OK/procedural — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: procedural.py (17130 bytes) (0.000s)  
+[08:15:43] [INFO] [184/330] [语法] 探针: OK/procedural — 语法
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:43] [INFO] [185/330] [存在性] 探针: OK/procedural_video — 目录存在
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:43] [INFO] [186/330] [语法] 探针: OK/procedural_video — 入口文件
+[08:15:43] [ERROR] [PROBE-PASS] 📍 ✅ 入口: procedural_video.py (32916 bytes) (0.000s)  
+[08:15:44] [INFO] [187/330] [语法] 探针: OK/procedural_video — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.007s)  
+[08:15:44] [INFO] [188/330] [存在性] 探针: OK/rider — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=9 (0.000s)  
+[08:15:44] [INFO] [189/330] [语法] 探针: OK/rider — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (11837 bytes) (0.000s)  
+[08:15:44] [INFO] [190/330] [语法] 探针: OK/rider — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [191/330] [存在性] 探针: OK/root — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [192/330] [语法] 探针: OK/root — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: root.py (458 bytes) (0.000s)  
+[08:15:44] [INFO] [193/330] [语法] 探针: OK/root — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:44] [INFO] [194/330] [存在性] 探针: OK/root1 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [195/330] [语法] 探针: OK/root1 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: root1.py (745 bytes) (0.000s)  
+[08:15:44] [INFO] [196/330] [语法] 探针: OK/root1 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [197/330] [存在性] 探针: OK/root2 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [198/330] [语法] 探针: OK/root2 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: root2.py (408 bytes) (0.000s)  
+[08:15:44] [INFO] [199/330] [语法] 探针: OK/root2 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:44] [INFO] [200/330] [存在性] 探针: OK/root3 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [201/330] [语法] 探针: OK/root3 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: root3.py (2231 bytes) (0.000s)  
+[08:15:44] [INFO] [202/330] [语法] 探针: OK/root3 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [203/330] [存在性] 探针: OK/root4 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [204/330] [语法] 探针: OK/root4 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: root4.py (5218 bytes) (0.000s)  
+[08:15:44] [INFO] [205/330] [语法] 探针: OK/root4 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [206/330] [存在性] 探针: OK/rrot — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [207/330] [语法] 探针: OK/rrot — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: rrot.py (5918 bytes) (0.000s)  
+[08:15:44] [INFO] [208/330] [语法] 探针: OK/rrot — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [209/330] [存在性] 探针: OK/run_media — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [210/330] [语法] 探针: OK/run_media — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: run_media.py (498 bytes) (0.000s)  
+[08:15:44] [INFO] [211/330] [语法] 探针: OK/run_media — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:44] [INFO] [212/330] [存在性] 探针: OK/russia — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=8 (0.000s)  
+[08:15:44] [INFO] [213/330] [语法] 探针: OK/russia — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (35450 bytes) (0.000s)  
+[08:15:44] [INFO] [214/330] [语法] 探针: OK/russia — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:44] [INFO] [215/330] [存在性] 探针: OK/s1mple — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [216/330] [语法] 探针: OK/s1mple — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: s1mple.py (8722 bytes) (0.000s)  
+[08:15:44] [INFO] [217/330] [语法] 探针: OK/s1mple — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [218/330] [存在性] 探针: OK/shikonghuaban — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [219/330] [语法] 探针: OK/shikonghuaban — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: fat.py (11124 bytes) (0.000s)  
+[08:15:44] [INFO] [220/330] [语法] 探针: OK/shikonghuaban — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:44] [INFO] [221/330] [存在性] 探针: OK/snake_pacman — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [222/330] [语法] 探针: OK/snake_pacman — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: snake_pacman.py (15236 bytes) (0.000s)  
+[08:15:44] [INFO] [223/330] [语法] 探针: OK/snake_pacman — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:44] [INFO] [224/330] [存在性] 探针: OK/station — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=大型, py文件=58 (0.000s)  
+[08:15:44] [INFO] [225/330] [语法] 探针: OK/station — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: main.py (10432 bytes) (0.000s)  
+[08:15:44] [INFO] [226/330] [语法] 探针: OK/station — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [227/330] [存在性] 探针: OK/tap — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=小型, py文件=0 (0.000s)  
+[08:15:44] [INFO] [228/330] [语法] 探针: OK/tap — 入口文件
+[08:15:44] [ERROR] [PROBE-FAIL] 📍 ❌ 无 .py 文件 (0.000s)  
+[08:15:44] [INFO] [229/330] [存在性] 探针: OK/tes — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [230/330] [语法] 探针: OK/tes — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: tes.py (38602 bytes) (0.000s)  
+[08:15:44] [INFO] [231/330] [语法] 探针: OK/tes — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:44] [INFO] [232/330] [存在性] 探针: OK/test_music — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [233/330] [语法] 探针: OK/test_music — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: test_music.py (680 bytes) (0.000s)  
+[08:15:44] [INFO] [234/330] [语法] 探针: OK/test_music — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[08:15:44] [INFO] [235/330] [存在性] 探针: OK/tuplay — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [236/330] [语法] 探针: OK/tuplay — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: tuplay.py (27947 bytes) (0.000s)  
+[08:15:44] [INFO] [237/330] [语法] 探针: OK/tuplay — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:44] [INFO] [238/330] [存在性] 探针: OK/uber — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [239/330] [语法] 探针: OK/uber — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: uber.py (43725 bytes) (0.000s)  
+[08:15:44] [INFO] [240/330] [语法] 探针: OK/uber — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.008s)  
+[08:15:44] [INFO] [241/330] [存在性] 探针: OK/wallpaper1 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [242/330] [语法] 探针: OK/wallpaper1 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: carboy.py (20636 bytes) (0.000s)  
+[08:15:44] [INFO] [243/330] [语法] 探针: OK/wallpaper1 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:44] [INFO] [244/330] [存在性] 探针: OK/wallpaper2 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [245/330] [语法] 探针: OK/wallpaper2 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: form.py (2878 bytes) (0.000s)  
+[08:15:44] [INFO] [246/330] [语法] 探针: OK/wallpaper2 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [247/330] [存在性] 探针: OK/wallpaper3 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [248/330] [语法] 探针: OK/wallpaper3 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: former.py (4601 bytes) (0.000s)  
+[08:15:44] [INFO] [249/330] [语法] 探针: OK/wallpaper3 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [250/330] [存在性] 探针: OK/wallpaper4 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [251/330] [语法] 探针: OK/wallpaper4 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: formerer.py (6577 bytes) (0.000s)  
+[08:15:44] [INFO] [252/330] [语法] 探针: OK/wallpaper4 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [253/330] [存在性] 探针: OK/wallpaper5 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [254/330] [语法] 探针: OK/wallpaper5 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: playUI.py (16469 bytes) (0.000s)  
+[08:15:44] [INFO] [255/330] [语法] 探针: OK/wallpaper5 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:44] [INFO] [256/330] [存在性] 探针: OK/wallpaper_pywallpaper — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [257/330] [语法] 探针: OK/wallpaper_pywallpaper — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wallpaper_pywallpaper.py (93392 bytes) (0.000s)  
+[08:15:44] [INFO] [258/330] [语法] 探针: OK/wallpaper_pywallpaper — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.018s)  
+[08:15:44] [INFO] [259/330] [存在性] 探针: OK/wave — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [260/330] [语法] 探针: OK/wave — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave.py (1608 bytes) (0.000s)  
+[08:15:44] [INFO] [261/330] [语法] 探针: OK/wave — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [262/330] [存在性] 探针: OK/wave1 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [263/330] [语法] 探针: OK/wave1 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave1.py (2480 bytes) (0.000s)  
+[08:15:44] [INFO] [264/330] [语法] 探针: OK/wave1 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [265/330] [存在性] 探针: OK/wave2 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [266/330] [语法] 探针: OK/wave2 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave2.py (1697 bytes) (0.000s)  
+[08:15:44] [INFO] [267/330] [语法] 探针: OK/wave2 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [268/330] [存在性] 探针: OK/wave3 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [269/330] [语法] 探针: OK/wave3 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave3.py (2682 bytes) (0.000s)  
+[08:15:44] [INFO] [270/330] [语法] 探针: OK/wave3 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [271/330] [存在性] 探针: OK/wave4 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [272/330] [语法] 探针: OK/wave4 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave4.py (5289 bytes) (0.000s)  
+[08:15:44] [INFO] [273/330] [语法] 探针: OK/wave4 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [274/330] [存在性] 探针: OK/wave5 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [275/330] [语法] 探针: OK/wave5 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wave5.py (3083 bytes) (0.000s)  
+[08:15:44] [INFO] [276/330] [语法] 探针: OK/wave5 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [277/330] [存在性] 探针: OK/weor — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=6 (0.000s)  
+[08:15:44] [INFO] [278/330] [语法] 探针: OK/weor — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: autodugeon.py (37819 bytes) (0.000s)  
+[08:15:44] [INFO] [279/330] [语法] 探针: OK/weor — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.007s)  
+[08:15:44] [INFO] [280/330] [存在性] 探针: OK/word — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [281/330] [语法] 探针: OK/word — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: word.py (57172 bytes) (0.000s)  
+[08:15:44] [INFO] [282/330] [语法] 探针: OK/word — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.008s)  
+[08:15:44] [INFO] [283/330] [存在性] 探针: OK/world — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [284/330] [语法] 探针: OK/world — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: world.py (4595 bytes) (0.000s)  
+[08:15:44] [INFO] [285/330] [语法] 探针: OK/world — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [286/330] [存在性] 探针: OK/wuzi — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [287/330] [语法] 探针: OK/wuzi — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wuzi.py (24028 bytes) (0.000s)  
+[08:15:44] [INFO] [288/330] [语法] 探针: OK/wuzi — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[08:15:44] [INFO] [289/330] [存在性] 探针: OK/wuzi_tkinter — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [290/330] [语法] 探针: OK/wuzi_tkinter — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: wuzi_tkinter.py (47220 bytes) (0.000s)  
+[08:15:44] [INFO] [291/330] [语法] 探针: OK/wuzi_tkinter — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.009s)  
+[08:15:44] [INFO] [292/330] [存在性] 探针: OK/xiaoshuo — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=中型, py文件=15 (0.000s)  
+[08:15:44] [INFO] [293/330] [语法] 探针: OK/xiaoshuo — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: autoplay.py (710 bytes) (0.000s)  
+[08:15:44] [INFO] [294/330] [语法] 探针: OK/xiaoshuo — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [295/330] [存在性] 探针: OK/yisiyouyong — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=大型, py文件=466 (0.000s)  
+[08:15:44] [INFO] [296/330] [语法] 探针: OK/yisiyouyong — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: _test_launch.py (2976 bytes) (0.000s)  
+[08:15:44] [INFO] [297/330] [语法] 探针: OK/yisiyouyong — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [298/330] [存在性] 探针: OK/yuanbao — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [299/330] [语法] 探针: OK/yuanbao — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: yuanbao.py (9893 bytes) (0.000s)  
+[08:15:44] [INFO] [300/330] [语法] 探针: OK/yuanbao — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [301/330] [存在性] 探针: OK/井字棋 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [302/330] [语法] 探针: OK/井字棋 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋.py (3025 bytes) (0.000s)  
+[08:15:44] [INFO] [303/330] [语法] 探针: OK/井字棋 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [304/330] [存在性] 探针: OK/井字棋2 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [305/330] [语法] 探针: OK/井字棋2 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋2.py (6807 bytes) (0.000s)  
+[08:15:44] [INFO] [306/330] [语法] 探针: OK/井字棋2 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [307/330] [存在性] 探针: OK/井字棋3 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [308/330] [语法] 探针: OK/井字棋3 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋3.py (3986 bytes) (0.000s)  
+[08:15:44] [INFO] [309/330] [语法] 探针: OK/井字棋3 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [310/330] [存在性] 探针: OK/井字棋4 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [311/330] [语法] 探针: OK/井字棋4 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋4.py (11771 bytes) (0.000s)  
+[08:15:44] [INFO] [312/330] [语法] 探针: OK/井字棋4 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.003s)  
+[08:15:44] [INFO] [313/330] [存在性] 探针: OK/井字棋5 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [314/330] [语法] 探针: OK/井字棋5 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋5.py (13292 bytes) (0.000s)  
+[08:15:44] [INFO] [315/330] [语法] 探针: OK/井字棋5 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [316/330] [存在性] 探针: OK/井字棋8 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [317/330] [语法] 探针: OK/井字棋8 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 井字棋8.py (29576 bytes) (0.000s)  
+[08:15:44] [INFO] [318/330] [语法] 探针: OK/井字棋8 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.006s)  
+[08:15:44] [INFO] [319/330] [存在性] 探针: OK/文字冒险 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [320/330] [语法] 探针: OK/文字冒险 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 文字冒险.py (8459 bytes) (0.000s)  
+[08:15:44] [INFO] [321/330] [语法] 探针: OK/文字冒险 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] [322/330] [存在性] 探针: OK/文字冒险2 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [323/330] [语法] 探针: OK/文字冒险2 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 文字冒险2.py (3472 bytes) (0.000s)  
+[08:15:44] [INFO] [324/330] [语法] 探针: OK/文字冒险2 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[08:15:44] [INFO] [325/330] [存在性] 探针: OK/贪吃豆人 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [326/330] [语法] 探针: OK/贪吃豆人 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 贪吃豆人.py (16916 bytes) (0.000s)  
+[08:15:44] [INFO] [327/330] [语法] 探针: OK/贪吃豆人 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.004s)  
+[08:15:44] [INFO] [328/330] [存在性] 探针: OK/随机地牢 — 目录存在
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 类型=单文件, py文件=1 (0.000s)  
+[08:15:44] [INFO] [329/330] [语法] 探针: OK/随机地牢 — 入口文件
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 入口: 随机地牢.py (6364 bytes) (0.000s)  
+[08:15:44] [INFO] [330/330] [语法] 探针: OK/随机地牢 — 语法
+[08:15:44] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[08:15:44] [INFO] 探针扫描完成: 323/330 通过, 7 失败
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  测试汇总
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  失败/错误明细
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

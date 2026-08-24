@@ -1,0 +1,12 @@
+=== 测试日志 === 开始时间: 2026-06-19 08:41:07.273320
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🚀 Dynamic Test
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[08:41:07] [INFO] 指定目标目录: D:/allin/not/OK/create,D:/allin/not/OK/die,D:/allin/not/OK/flash,D:/allin/not/OK/gan,D:/allin/not/OK/gandie,D:/allin/not/OK/last,D:/allin/not/OK/maga,D:/allin/not/OK/play,D:/allin/not/OK/player,D:/allin/not/OK/porn,D:/allin/not/OK/procedural,D:/allin/not/OK/procedural_video,D:/allin/not/OK/rider,D:/allin/not/OK/shikonghuaban,D:/allin/not/OK/yuanbao
+[08:41:07] [INFO] 发现文件数: 58
+[08:41:07] [INFO] 超时时间: 10 秒
+[08:41:10] [INFO] 
+  📄 详细报告已保存: D:\allin\tools\py_test_runner\logs\dynamic_test_report.json
+[08:41:10] [INFO] 
+  ⏱️  总耗时: 3.05 秒

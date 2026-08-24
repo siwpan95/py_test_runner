@@ -1,0 +1,127 @@
+=== 测试日志 === 开始时间: 2026-06-19 06:09:37.286302
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎨 draw 项目深度扫描 — 全量探针（P1+P2+P3）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[06:09:37] [INFO] draw 项目路径: D:\allin\not\OK\draw
+[06:09:37] [INFO] 探针总数: 53
+[06:09:37] [INFO] 执行范围: 全量探针
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📍 探针扫描 — 53 个检测点
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[06:09:37] [INFO] [1/53] [draw-依赖] 探针: draw — pygame 可导入
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ pygame 2.6.1 (0.303s)  
+[06:09:37] [INFO] [2/53] [draw-依赖] 探针: draw — numpy 可导入
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ numpy 2.4.6 (0.000s)  
+[06:09:37] [INFO] [3/53] [draw-文件] 探针: draw — 核心文件: main.pyw
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ main.pyw (2742 bytes) (0.000s)  
+[06:09:37] [INFO] [4/53] [draw-文件] 探针: draw — 核心文件: core/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ core/__init__.py (0 bytes) (0.000s)  
+[06:09:37] [INFO] [5/53] [draw-文件] 探针: draw — 核心文件: core/world.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ core/world.py (43267 bytes) (0.000s)  
+[06:09:37] [INFO] [6/53] [draw-文件] 探针: draw — 核心文件: entities/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities/__init__.py (219 bytes) (0.000s)  
+[06:09:37] [INFO] [7/53] [draw-文件] 探针: draw — 核心文件: entities/recipe.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities/recipe.py (3929 bytes) (0.000s)  
+[06:09:37] [INFO] [8/53] [draw-文件] 探针: draw — 核心文件: entities/registry.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities/registry.py (7036 bytes) (0.000s)  
+[06:09:37] [INFO] [9/53] [draw-文件] 探针: draw — 核心文件: systems/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/__init__.py (325 bytes) (0.000s)  
+[06:09:37] [INFO] [10/53] [draw-文件] 探针: draw — 核心文件: systems/evolution.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/evolution.py (20688 bytes) (0.000s)  
+[06:09:37] [INFO] [11/53] [draw-文件] 探针: draw — 核心文件: systems/colormap.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/colormap.py (5966 bytes) (0.000s)  
+[06:09:37] [INFO] [12/53] [draw-文件] 探针: draw — 核心文件: systems/render.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/render.py (12315 bytes) (0.000s)  
+[06:09:37] [INFO] [13/53] [draw-文件] 探针: draw — 核心文件: systems/ui.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/ui.py (3373 bytes) (0.000s)  
+[06:09:37] [INFO] [14/53] [draw-文件] 探针: draw — 核心文件: ui/thumbnail_grid.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ ui/thumbnail_grid.py (42522 bytes) (0.000s)  
+[06:09:37] [INFO] [15/53] [draw-目录] 探针: draw — 目录存在: core
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ core/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [16/53] [draw-目录] 探针: draw — 目录存在: entities
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [17/53] [draw-目录] 探针: draw — 目录存在: systems
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ systems/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [18/53] [draw-目录] 探针: draw — 目录存在: ui
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ ui/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [19/53] [draw-目录] 探针: draw — 目录存在: templates
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ templates/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [20/53] [draw-目录] 探针: draw — 目录存在: effects
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ effects/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [21/53] [draw-目录] 探针: draw — 目录存在: tools
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ tools/ 目录存在 (0.000s)  
+[06:09:37] [INFO] [22/53] [draw-语法] 探针: draw — 语法: main.pyw
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[06:09:37] [INFO] [23/53] [draw-语法] 探针: draw — 语法: core/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[06:09:37] [INFO] [24/53] [draw-语法] 探针: draw — 语法: core/world.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.008s)  
+[06:09:37] [INFO] [25/53] [draw-语法] 探针: draw — 语法: entities/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[06:09:37] [INFO] [26/53] [draw-语法] 探针: draw — 语法: entities/recipe.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[06:09:37] [INFO] [27/53] [draw-语法] 探针: draw — 语法: entities/registry.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[06:09:37] [INFO] [28/53] [draw-语法] 探针: draw — 语法: systems/__init__.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.000s)  
+[06:09:37] [INFO] [29/53] [draw-语法] 探针: draw — 语法: systems/evolution.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[06:09:37] [INFO] [30/53] [draw-语法] 探针: draw — 语法: systems/colormap.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[06:09:37] [INFO] [31/53] [draw-语法] 探针: draw — 语法: systems/render.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.002s)  
+[06:09:37] [INFO] [32/53] [draw-语法] 探针: draw — 语法: systems/ui.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.001s)  
+[06:09:37] [INFO] [33/53] [draw-语法] 探针: draw — 语法: ui/thumbnail_grid.py
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ 语法正确 (0.005s)  
+[06:09:37] [INFO] [34/53] [draw-导入] 探针: draw — 导入: entities.recipe
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities.recipe.RecipeEntity 可访问 (0.007s)  
+[06:09:37] [INFO] [35/53] [draw-导入] 探针: draw — 导入: entities.registry
+[06:09:37] [ERROR] [PROBE-PASS] 📍 ✅ entities.registry.TemplateRegistry 可访问 (0.000s)  
+[06:09:37] [INFO] [36/53] [draw-导入] 探针: draw — 导入: systems.evolution
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ systems.evolution.EvolutionSystem 可访问 (0.308s)  
+[06:09:38] [INFO] [37/53] [draw-导入] 探针: draw — 导入: systems.colormap
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ systems.colormap.ColorSystem 可访问 (0.000s)  
+[06:09:38] [INFO] [38/53] [draw-导入] 探针: draw — 导入: systems.render
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ systems.render.RenderSystem 可访问 (0.000s)  
+[06:09:38] [INFO] [39/53] [draw-导入] 探针: draw — 导入: ui.thumbnail_grid
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ ui.thumbnail_grid.ThumbnailGrid 可访问 (0.001s)  
+[06:09:38] [INFO] [40/53] [draw-数据] 探针: draw — effects JSON 文件存在
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 找到 8886 个 JSON 文件 (0.016s)  
+[06:09:38] [INFO] [41/53] [draw-数据] 探针: draw — thumbs PNG 文件存在
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 找到 8887 个 PNG 文件 (0.011s)  
+[06:09:38] [INFO] [42/53] [draw-模板] 探针: draw — 模板文件语法全检
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 10/10 个模板文件语法正确 (0.013s)  
+[06:09:38] [INFO] [43/53] [draw-ECS] 探针: draw — RecipeEntity 可实例化
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ RecipeEntity 类可访问 (0.000s)  
+[06:09:38] [INFO] [44/53] [draw-ECS] 探针: draw — EvolutionSystem 可实例化
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ EvolutionSystem 实例化成功: EvolutionSystem (0.000s)  
+[06:09:38] [INFO] [45/53] [draw-ECS] 探针: draw — ColorSystem 可实例化
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ ColorSystem 实例化成功 (0.000s)  
+[06:09:38] [INFO] [46/53] [draw-UI] 探针: draw — ThumbnailGrid 可实例化
+[06:09:38] [ERROR] [PROBE-FAIL] 📍 ❌ 实例化失败: TypeError: expected str, bytes or os.PathLike object, not int (0.008s)  
+[06:09:38] [INFO] [47/53] [draw-数据] 探针: draw — effects/thumbs 数量一致性
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ JSON=8886, PNG=8887, 覆盖率=100.0% ✅ (0.024s)  
+[06:09:38] [INFO] [48/53] [draw-数据] 探针: draw — 抽样 JSON 有效性 (50个)
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 抽样 50 个, 50 有效, 0 无效 (0.035s)  
+[06:09:38] [INFO] [49/53] [draw-模板] 探针: draw — TemplateRegistry 分类发现
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 发现 0 个分类:  (0.000s)  
+[06:09:38] [INFO] [50/53] [draw-性能] 探针: draw — 单文件缩略图生成
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ 缩略图生成成功 (Annulus_2x2_Categorical8_8c3fedc2.json) (0.675s)  
+[06:09:38] [INFO] [51/53] [draw-数据] 探针: draw — favorites.json 有效性
+[06:09:38] [ERROR] [PROBE-PASS] 📍 ✅ favorites.json 不存在（尚未收藏） (0.000s)  
+[06:09:38] [INFO] [52/53] [draw-语法] 探针: draw — 全量 .py 语法检查
+[06:09:39] [ERROR] [PROBE-FAIL] 📍 ❌ 41/43 通过, 失败: tools\generate_recipes_v3.py: L242: unindent does not match any outer indentation level; tools\split_templates.py: L97: expression cannot contain assignment, perhaps you meant "=="? (0.079s)  
+[06:09:39] [INFO] [53/53] [draw-统计] 探针: draw — 目录结构统计
+[06:09:39] [ERROR] [PROBE-PASS] 📍 ✅ 目录统计: core=2, entities=3, systems=5, ui=3, templates=10, tools=15, effects=8886 (0.014s)  
+[06:09:39] [INFO] 探针扫描完成: 51/53 通过, 2 失败
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  测试汇总
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  失败/错误明细
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

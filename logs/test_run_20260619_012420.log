@@ -1,0 +1,53 @@
+=== 测试日志 === 开始时间: 2026-06-19 01:24:20.355105
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  开始执行 21 个测试
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[01:24:20] [INFO] 超时设置: 30.0s / 每个测试
+[01:24:20] [INFO] [1/21] 执行: test_math_add
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.001s)  
+[01:24:20] [INFO] [2/21] 执行: test_math_multiply
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [3/21] 执行: test_string_concat
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [4/21] 执行: test_list_operations
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [5/21] 执行: test_dict_operations
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [6/21] 执行: test_set_operations
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [7/21] 执行: test_float_comparison
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [8/21] 执行: test_sqrt_calculation
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [9/21] 执行: test_slice_operations
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [10/21] 执行: test_generator_expression
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.000s)  
+[01:24:20] [INFO] [11/21] 执行: test_performance_sort
+[01:24:20] [ERROR] [PASS-000] ✅ 通过 (0.001s)  
+[01:24:20] [INFO] [12/21] 执行: test_fail_assert_equal
+[01:24:20] [ERROR] [FAIL-001] ❌ 期望 2+2=5，但实际得到 4  
+[01:24:20] [INFO] [13/21] 执行: test_fail_assert_in
+[01:24:20] [ERROR] [FAIL-001] ❌ 期望 orange 在水果列表中  
+[01:24:20] [INFO] [14/21] 执行: test_fail_unexpected_result
+[01:24:20] [ERROR] [FAIL-001] ❌ 期望 3+4=7，但函数实现有 bug  
+[01:24:20] [INFO] [15/21] 执行: test_error_zero_division
+[01:24:20] [ERROR] [ERR-007] 💥 ZeroDivisionError: division by zero  
+[01:24:20] [INFO] [16/21] 执行: test_error_key_not_found
+[01:24:20] [ERROR] [ERR-005] 💥 KeyError: 'age'  
+[01:24:20] [INFO] [17/21] 执行: test_error_index_out_of_range
+[01:24:20] [ERROR] [ERR-006] 💥 IndexError: list index out of range  
+[01:24:20] [INFO] [18/21] 执行: test_error_attribute_missing
+[01:24:20] [ERROR] [ERR-002] 💥 AttributeError: 'int' object has no attribute 'append'  
+[01:24:20] [INFO] [19/21] 执行: test_error_type_mismatch
+[01:24:20] [ERROR] [ERR-003] 💥 TypeError: can only concatenate str (not "int") to str  
+[01:24:20] [INFO] [20/21] 执行: test_error_value_invalid
+[01:24:20] [ERROR] [ERR-004] 💥 ValueError: invalid literal for int() with base 10: 'not_a_number'  
+[01:24:20] [INFO] [21/21] 执行: test_error_name_undefined
+[01:24:20] [ERROR] [ERR-008] 💥 NameError: name 'undefined_variable' is not defined  
+[01:24:20] [INFO] 全部测试完成，耗时 0.10s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  测试汇总
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
