@@ -75,7 +75,7 @@ from probes.ok_probes import OK_DIR, register_ok_probes
 from probes.draw_probes import register_draw_probes
 from scanners.allin_scanner import register_allin_probes
 from scanners.architecture_detector import ArchitectureDetector, print_architecture_report
-from scanners.dynamic_tester import DynamicTester
+from scanners.dynamic_tester import DynamicTestResult, DynamicTester   # 2026-09-23 补类型名，避免注解指向未定义名
 
 
 def parse_args():
