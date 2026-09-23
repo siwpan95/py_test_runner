@@ -154,7 +154,7 @@ python main.py --draw --draw-p1 -c
 
 ### 全项目扫描（`--allin`）
 
-递归扫描 `D:\allin` 下**所有** Python 文件（10,700+ 个）。
+递归扫描根目录下**所有** Python 文件。根目录由环境变量 **`SCAN_ROOT`** 指定；未设置时默认为**本仓的上一级目录**（一仓一目录的仓库根，`scanners/allin_scanner.py`、`probes/ok_probes.py` 同为该口径）。扫描规模随根目录而定。
 
 | 参数 | 说明 |
 |------|------|
