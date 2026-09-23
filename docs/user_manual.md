@@ -242,7 +242,7 @@ python main.py --allin --arch -c
 python main.py --dynamic -c
 
 # 指定项目目录
-python main.py --dynamic --dynamic-project D:/allin/not/OK/merged_gui -c
+python main.py --dynamic --dynamic-project <项目目录> -c
 
 # 并行执行（加速）
 python main.py --dynamic --dynamic-parallel -c
@@ -257,7 +257,7 @@ python main.py --dynamic --dynamic-parallel --dynamic-incremental -c
 python main.py --dynamic --dynamic-timeout 30 --dynamic-workers 8 -c
 
 # 手动指定 Python（当自动检测失败时）
-python main.py --dynamic --dynamic-python "C:\Python314\python.exe" -c
+python main.py --dynamic --dynamic-python "<Python 解释器路径>" -c
 ```
 
 ---
@@ -344,10 +344,10 @@ python main.py --dynamic --dynamic-parallel -c
 
 ```bash
 # 步骤 1：检查项目是否能导入
-python main.py --dynamic --dynamic-project D:/path/to/new_project -c
+python main.py --dynamic --dynamic-project <新项目目录> -c
 
 # 步骤 2：检测项目使用的架构模式
-python main.py --arch --arch-detail --dynamic-project D:/path/to/new_project -c
+python main.py --arch --arch-detail --dynamic-project <新项目目录> -c
 
 # 步骤 3：如果没问题，为该项目添加 OK 探针
 # （编辑 ok_probes.py，添加新项目的探针生成逻辑）
@@ -430,7 +430,7 @@ echo $?   # 0 = 全部通过，1 = 有失败
 
 **解决**：
 - 动态测试会自动回退到系统 Python（通常有 tkinter）
-- 或手动指定：`--dynamic-python "C:\Python314\python.exe"`
+- 或手动指定：`--dynamic-python "<Python 解释器路径>"`
 
 ---
 
