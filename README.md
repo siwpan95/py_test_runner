@@ -1,5 +1,8 @@
 # py_test_runner — Python 项目全覆盖测试框架
 
+> 仓库：<https://gitee.com/siwpan/py_test_runner> ｜ 许可：MIT（见 [LICENSE](LICENSE)）
+> 注：文中 <PATH> 为路径占位符，请替换为你本机实际的目录 / 可执行文件路径。
+
 > 多功能 Python 测试框架，支持静态扫描、架构检测、动态运行三大类测试。
 > 由全哥创建，用于 G 盘项目（10,700+ Python 文件）的日常质量保障。
 
@@ -8,7 +11,7 @@
 ## 快速开始
 
 ```bash
-cd G:\repos\py_test_runner
+cd <PATH>
 
 python main.py -c                # 控制台模式（最常用）
 python main.py --smoke -c        # 探针冒烟测试
@@ -16,7 +19,7 @@ python main.py --allin -c         # 全项目扫描（P1 快速）
 python main.py --arch -c          # 架构模式检测
 python main.py --dynamic -c       # 动态测试（尝试运行）
 python main.py --simple -c        # 简单测试：编译 + JSON 校验
-python main.py --simple -c --simple-target G:\local\tavern-rogue
+python main.py --simple -c --simple-target <PATH>
 ```
 
 ---
@@ -30,7 +33,7 @@ python main.py --simple -c --simple-target G:\local\tavern-rogue
 | 探针模式 | `python main.py --smoke -c` | 冒烟测试（P1 关键探针） |
 | OK 库扫描 | `python main.py --ok -c` | 扫描 `not/OK` 下所有项目 |
 | draw 项目 | `python main.py --draw -c` | 深度扫描 ECS 架构项目 |
-| 全项目扫描 | `python main.py --allin -c` | 递归扫描 `G:\` 全部目录 |
+| 全项目扫描 | `python main.py --allin -c` | 递归扫描 `<PATH>` 全部目录 |
 | 架构检测 | `python main.py --arch -c` | 识别 13 种架构模式 |
 | 动态测试 | `python main.py --dynamic -c` | 尝试导入并运行 Python 文件 |
 
