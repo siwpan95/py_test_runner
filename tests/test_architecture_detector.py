@@ -4,9 +4,10 @@
 
 使用方法：
     python test_architecture_detector.py
-    python test_architecture_detector.py D:/allin
+    python test_architecture_detector.py <项目根>
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -21,8 +22,8 @@ def main():
     if len(sys.argv) > 1:
         project_root = Path(sys.argv[1])
     else:
-        # 默认扫描 allin 项目
-        project_root = Path("D:/allin")
+        # 默认扫描根（2026-09-23 去本地化：原 D:/allin 已失效；SCAN_ROOT 优先，默认上级目录）
+        project_root = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parents[2])
 
     if not project_root.exists():
         print(f"❌ 项目路径不存在: {project_root}")

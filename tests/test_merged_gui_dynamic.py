@@ -13,7 +13,10 @@ from pathlib import Path
 from typing import List, Tuple
 
 # merged_gui 目录
-MERGED_GUI_DIR = Path("D:/allin/not/OK/merged_gui")
+# merged_gui 目录（2026-09-23 去本地化：原 D:/allin/not/OK/merged_gui 已失效；
+# MERGED_GUI_DIR 环境变量优先，默认 <工作区>/notpython/merged_gui）
+MERGED_GUI_DIR = Path(os.environ.get("MERGED_GUI_DIR")
+                      or (Path(__file__).resolve().parents[3] / "notpython" / "merged_gui"))
 
 
 def run_with_timeout(py_file: Path, timeout: int = 5) -> Tuple[bool, str, str]:

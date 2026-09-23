@@ -11,7 +11,7 @@
     python main.py --ok             # OK 测试对象库全量扫描
     python main.py -c --ok          # 控制台 + OK 库扫描
     python main.py --draw            # draw 项目深度扫描
-    python main.py --allin          # 全项目扫描 G:\tools
+    python main.py --allin          # 全项目扫描（根目录见 SCAN_ROOT，默认上级目录）
     python main.py -c --allin       # 控制台 + 全项目扫描
     python main.py --timeout 10     # 设置超时（秒）
     python main.py --demo           # 仅运行演示套件（5个测试）
@@ -71,7 +71,7 @@ from core.test_probe import ProbeManager
 from console.console_ui import ConsoleUI
 from tests.test_cases import ALL_TESTS, PASSING_TESTS, DEMO_TESTS
 from probes.probe_cases import register_probes
-from probes.ok_probes import register_ok_probes
+from probes.ok_probes import OK_DIR, register_ok_probes
 from probes.draw_probes import register_draw_probes
 from scanners.allin_scanner import register_allin_probes
 from scanners.architecture_detector import ArchitectureDetector, print_architecture_report
@@ -144,7 +144,7 @@ def parse_args():
     parser.add_argument(
         "--ok",
         action="store_true",
-        help="扫描 D:\\allin\\not\\OK 测试对象库全部项目",
+        help="扫描测试对象库全部项目（目录见 SCAN_ROOT，默认上级目录）",
     )
     parser.add_argument(
         "--ok-p1",
@@ -165,7 +165,7 @@ def parse_args():
     parser.add_argument(
         "--allin",
         action="store_true",
-        help="全项目扫描 D:\\allin（语法+编码+导入+统计）",
+        help="全项目扫描（语法+编码+导入+统计；根目录见 SCAN_ROOT）",
     )
     parser.add_argument(
         "--allin-p1",
@@ -290,7 +290,7 @@ def run_ok_probes(log_manager: LogManager, args):
 
     total = mgr.count
     log_manager.section(f"🔬 OK 测试对象库扫描 — {label}")
-    log_manager.info(f"目标目录: D:\\allin\\not\\OK")
+    log_manager.info(f"目标目录: {OK_DIR}")
     log_manager.info(f"探针总数: {total}")
 
     results = mgr.run(probes)
@@ -357,7 +357,7 @@ def run_draw_probes(log_manager: LogManager, args):
 
 
 def run_allin_probes(log_manager: LogManager, args):
-    """全项目扫描 D:\\allin"""
+    """全项目扫描（根目录见 SCAN_ROOT，默认上级目录）"""
     full = args.all  # --all 时运行 P2/P3 探针
     label = "全量探针（P1+P2+P3）" if full else "P1 关键探针"
     log_manager.section(f"🌍 全项目扫描 — {label}")
