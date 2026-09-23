@@ -496,7 +496,7 @@ def run_architecture_detection(log_manager: LogManager, args):
     """
     log_manager.section("🏗️  架构模式检测")
 
-    project_root = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parent.parent)   # 2026-09-23 去本地化（原 D:/allin）
+    project_root = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parent.parent)   # 2026-09-23 去本地化
     log_manager.info(f"项目路径: {project_root}")
 
     if not project_root.exists():

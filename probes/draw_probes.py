@@ -22,8 +22,8 @@ from pathlib import Path
 from typing import Any, Callable, Tuple
 
 # ── draw 项目路径 ─────────────────────────────
-# 原 D:\allin\not\OK\draw 已失效；drawpic（故障艺术生成器）为其后继项目
-DRAW_DIR = Path(os.environ.get("DRAWPIC_ROOT") or (Path(__file__).resolve().parents[2] / "drawpic"))   # 2026-09-23 去本地化（原 G:\tools\visual\drawpic 已失效）
+# drawpic（故障艺术生成器）为原 draw 项目的后继
+DRAW_DIR = Path(os.environ.get("DRAWPIC_ROOT") or (Path(__file__).resolve().parents[2] / "drawpic"))   # 2026-09-23 去本地化
 EFFECTS_DIR = DRAW_DIR / "effects"
 THUMBS_DIR = EFFECTS_DIR / "thumbs"
 TEMPLATES_DIR = DRAW_DIR / "templates"

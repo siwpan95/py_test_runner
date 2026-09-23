@@ -19,7 +19,7 @@ from typing import List, Tuple
 from core.test_probe import Probe, ProbeManager
 from core.error_types import ErrorCode
 
-OK_DIR = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parents[2])   # 2026-09-23 去本地化（原 D:\allin\not\OK → G:\tools 均已失效）
+OK_DIR = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parents[2])   # 2026-09-23 去本地化
 
 
 def discover_projects() -> List[Path]:
