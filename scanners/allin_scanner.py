@@ -28,20 +28,18 @@ from pathlib import Path
 from typing import List, Tuple, Dict, Set, Optional
 from collections import defaultdict
 
-# ── 项目根目录 ─────────────────────────────
-# 原 D:\allin 项目已失效，默认改为 G:\tools 工具箱根目录
-ALLIN_ROOT = Path(r"G:\tools")
+# ── 项目根目录（2026-09-23 去本地化）────────────────────────────
+# 原 D:\allin 与后续 G:\tools 均已失效；现由环境变量 SCAN_ROOT 指定，
+# 默认取本仓的上一级（一仓一目录的 repos 根）。
+ALLIN_ROOT = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parents[2])
 
 # ── 需要扫描的目录 ─────────────────────────
-SCAN_DIRS = [
-    ALLIN_ROOT / "ai",
-    ALLIN_ROOT / "audio",
-    ALLIN_ROOT / "crawler",
-    ALLIN_ROOT / "dev",
-    ALLIN_ROOT / "desktop",
-    ALLIN_ROOT / "game",
-    ALLIN_ROOT / "visual",
-]
+# 兼容旧的分类子目录；分类目录不存在时回退为直接扫描 ALLIN_ROOT 下的一级子目录。
+_LEGACY_SUBDIRS = ["ai", "audio", "crawler", "dev", "desktop", "game", "visual"]
+_EXCLUDE_TOPS = {"__pycache__", ".git", ".pytest_cache", "node_modules", ".vscode", ".idea"}
+SCAN_DIRS = [ALLIN_ROOT / d for d in _LEGACY_SUBDIRS if (ALLIN_ROOT / d).is_dir()]
+if not SCAN_DIRS and ALLIN_ROOT.is_dir():
+    SCAN_DIRS = sorted(p for p in ALLIN_ROOT.iterdir() if p.is_dir() and p.name not in _EXCLUDE_TOPS)
 
 # ── 排除的目录/文件模式 ─────────────────────
 EXCLUDE_PATTERNS = {

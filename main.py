@@ -496,7 +496,7 @@ def run_architecture_detection(log_manager: LogManager, args):
     """
     log_manager.section("🏗️  架构模式检测")
 
-    project_root = Path("D:/allin")
+    project_root = Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parent.parent)   # 2026-09-23 去本地化（原 D:/allin）
     log_manager.info(f"项目路径: {project_root}")
 
     if not project_root.exists():
@@ -693,7 +693,7 @@ def run_dynamic_tests(log_manager: LogManager, args):
         log_manager.section("导入失败的文件")
         for r in failures:
             try:
-                rel_path = Path(r.file_path).relative_to(Path("D:/allin/not/OK"))
+                rel_path = Path(r.file_path).relative_to(Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parent.parent))   # 2026-09-23 去本地化
             except ValueError:
                 rel_path = Path(r.file_path).name
             log_manager.print_colored(f"  X {rel_path} -- {r.import_error}", "错误")

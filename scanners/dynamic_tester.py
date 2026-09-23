@@ -11,7 +11,7 @@
 使用方法：
     from scanners.dynamic_tester import DynamicTester
     
-    tester = DynamicTester(project_path="D:/allin/not/OK/merged_gui")
+    tester = DynamicTester(project_path=os.environ.get("SCAN_ROOT") or str(Path(__file__).resolve().parents[2]))
     
     # 并行测试（4 进程）
     results = tester.run_tests(parallel=True, workers=4)
@@ -315,9 +315,12 @@ class DynamicTester:
     
     def _detect_python(self) -> str:
         """自动检测有 tkinter 的系统 Python"""
+        # 2026-09-23 去本地化：当前解释器优先，可用 PYEXE 覆盖
         candidates = [
-            r"C:\Users\13122\AppData\Local\Programs\Python\Python314\python.exe",
+            os.environ.get("PYEXE", "").strip(),
+            sys.executable,
         ]
+        candidates = [c for c in candidates if c]
         for py in candidates:
             try:
                 r = subprocess.run([py, "-c", "import tkinter;print('ok')"],

@@ -23,7 +23,7 @@ from typing import Any, Callable, Tuple
 
 # ── draw 项目路径 ─────────────────────────────
 # 原 D:\allin\not\OK\draw 已失效；drawpic（故障艺术生成器）为其后继项目
-DRAW_DIR = Path(r"G:\tools\visual\drawpic")
+DRAW_DIR = Path(os.environ.get("DRAWPIC_ROOT") or (Path(__file__).resolve().parents[2] / "drawpic"))   # 2026-09-23 去本地化（原 G:\tools\visual\drawpic 已失效）
 EFFECTS_DIR = DRAW_DIR / "effects"
 THUMBS_DIR = EFFECTS_DIR / "thumbs"
 TEMPLATES_DIR = DRAW_DIR / "templates"

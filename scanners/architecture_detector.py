@@ -10,7 +10,7 @@
   from architecture_detector import ArchitectureDetector
 
   detector = ArchitectureDetector()
-  results = detector.scan_project(Path("D:/allin"))
+  results = detector.scan_project(Path(os.environ.get("SCAN_ROOT") or Path(__file__).resolve().parents[2]))
   detector.print_report()
 """
 
