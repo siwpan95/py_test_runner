@@ -1,3 +1,0 @@
-=== 测试日志 === 开始时间: 2026-06-14 07:48:26.790253
-[07:48:27] [INFO] GUI 模式启动，加载 21 个测试用例
-[07:48:27] [INFO] 测试列表: test_math_add, test_math_multiply, test_string_concat, test_list_operations, test_dict_operations ... 共 21 个
