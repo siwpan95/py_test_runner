@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError
 SYSTEM_PYTHON = r"F:\Python314\python.exe"
 
 # 项目路径
-# 原 D:\allin\not\OK\merged_gui 已失效，改为动态测试本工具自身代码
+# 原路径已失效，改为动态测试本工具自身代码
 PROJECT_PATH = Path(__file__).resolve().parents[1]
 
 # 超时时间（秒）
