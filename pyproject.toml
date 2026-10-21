@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrunner"
+version = "1.0.0"
+description = "Python 项目全覆盖测试框架：静态扫描 / 架构检测 / 动态运行"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [{ name = "siwpan" }]
+keywords = ["test", "testing", "static-analysis", "architecture", "qa"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://gitee.com/siwpan/py_test_runner"
+Repository = "https://gitee.com/siwpan/py_test_runner"
+Changelog = "https://gitee.com/siwpan/py_test_runner/blob/master/CHANGELOG.md"
+
+[project.scripts]
+pytrunner = "pytrunner.main:main"
+
+[tool.setuptools]
+package-dir = { "pytrunner" = ".", "pytrunner.console" = "console", "pytrunner.core" = "core", "pytrunner.gui" = "gui" }
+packages = ["pytrunner", "pytrunner.console", "pytrunner.core", "pytrunner.gui", "pytrunner.probes", "pytrunner.scanners", "pytrunner.tests"]
