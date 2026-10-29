@@ -8,7 +8,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
 
 # 系统 Python 路径
-SYSTEM_PYTHON = r"F:\Python314\python.exe"
+SYSTEM_PYTHON = r"python"
 
 # 项目路径
 # 原路径已失效，改为动态测试本工具自身代码
